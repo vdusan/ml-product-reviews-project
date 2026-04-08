@@ -50,3 +50,5 @@ pipeline.fit(X, y)
 joblib.dump(pipeline, "model/sentiment_model.pkl")
  
 print(" Model trained and saved as 'model/sentiment_model.pkl'")
+
+# posto treniranje traje vise od 15 minuta nisam ga pokrenuo ali kada se zavrsi u folderu model treba da se nalazi .pkl fajl
